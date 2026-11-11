@@ -7,8 +7,10 @@ output: github_document
 **Group members:** Dhriti Iyer (di2251), Michelle Jerry (msj2167), Shaka Ramanathan (sr4354), & Anya Jacoby (abj2136)
 
 **Tentative project title:**
+Rats, Rent, and Where to Live: A Data-Driven Apartment Search
 
 **Motivation for this project:**
+Next year, we will be graduating with the intention of staying here in New York City! We hope to find a happy home amongst the five boroughs and we'd quite like that home to be rat-free (rat-light it needed). Rats are a common NYC reality, but their distribution varies: we want to use public rodent data to see which neighbourhoods have the biggest and smallest problems, and whether paying more rent actually gets you fewer rats. Then, we will combine that with budget and commute to find places we want to live in!
 
 **Intended final products:**
 
@@ -18,4 +20,4 @@ output: github_document
 
 **Planned timeline:**
 
-hello
+
