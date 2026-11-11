@@ -1,0 +1,7 @@
+---
+title: "p8105_project_proposal"
+author: "di2251, msj2167, sr4354, & abj2136"
+date: "2026-11-11"
+output: github_document
+---
+
