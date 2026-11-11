@@ -1,0 +1,19 @@
+p8105_project_proposal
+================
+di2251, msj2167, sr4354, & abj2136
+2026-11-11
+
+**Group members:** Dhriti Iyer (di2251), Michelle Jerry (msj2167), Shaka
+Ramanathan (sr4354), & Anya Jacoby (abj2136)
+
+**Tentative project title:**
+
+**Motivation for this project:**
+
+**Intended final products:**
+
+**Anticipated data sources:**
+
+**Planned analyses/visualizations/coding challenges:**
+
+**Planned timeline:**
