@@ -19,5 +19,9 @@ Next year, we will be graduating with the intention of staying here in New York 
 **Planned analyses/visualizations/coding challenges:**
 
 **Planned timeline:**
-
-
+*Week 1 (Nov 23 - Nov 27):* 
+We intend to use this week to identify the variables necessary to complete our analysis from the datasets and combine and clean the data. We will code the initial data visualizations to get an idea of what the results may be and how to refine our methods for more useful results. We will then clean up the code and visuals so that they are easy to interpret for viewers. At the end of this week, we will draft the following sections of the report: overview of project goals and motivations, related work, initial questions, data cleaning, and initial exploratory analysis. 
+*Week 2 (Nov 30 - Dec 4):*
+We intend to use this week to analyze the data we collected and build the website. At the end of this week, we will draft the following sections of the report: complete data cleaning and exploratory analysis. 
+*Week 3 (Dec 7 - Dec 12):*
+We intend to use this week to complete our report and website, record our webpage and screencast, and complete the peer assessment. 
