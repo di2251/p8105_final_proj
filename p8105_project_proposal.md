@@ -3,17 +3,91 @@ p8105_project_proposal
 di2251, msj2167, sr4354, & abj2136
 2026-11-11
 
-**Group members:** Dhriti Iyer (di2251), Michelle Jerry (msj2167), Shaka
-Ramanathan (sr4354), & Anya Jacoby (abj2136)
+**Group members:**
+
+Dhriti Iyer (di2251), Michelle Jerry (msj2167), Shaka Ramanathan
+(sr4354), & Anya Jacoby (abj2136)
 
 **Tentative project title:**
 
+Rats, Rent, and Where to Live: A Data-Driven Apartment Search
+
 **Motivation for this project:**
+
+Next year, we will be graduating with the intention of staying here in
+New York City! We hope to find a happy home amongst the five boroughs
+and we’d quite like that home to be rat-free (rat-light if needed). Rats
+are a common NYC reality, but their distribution varies: we want to use
+public rodent data to see which neighbourhoods have the biggest and
+smallest problems, and whether paying more rent actually gets you fewer
+rats. Then, we will combine that with budget information and commute to
+find places we want to live in!
 
 **Intended final products:**
 
+A rent vs. rat activity analysis that identifies how neighbourhood
+affordability intersects with rat prevalence.
+
 **Anticipated data sources:**
 
-**Planned analyses/visualizations/coding challenges:**
+We will use the NYC 311 Service Requests data from NYC Open Data. 311 is
+New York City’s non-emergency service line, and the dataset includes
+service requests routed to a city agency for action. Each record is one
+service request and includes the date and time it was created and
+closed, the responding agency, the complaint type and descriptor, the
+location type, the address, the borough-block-lot (BBL) building
+identifier, and latitude and longitude. In this dataset, rodent
+complaints are recorded under complaint type “Rodent” and categorized by
+a descriptor field (e.g. rat sighting, mouse sighting, signs of rodents,
+conditions attracting rodents).
+
+For NYC rent prices broken down by neighborhood, we will use the
+StreetEasy Data Dashboard, which is free, publicly available, and
+updated monthly. It offers neighbourhood-level figures such as median
+asking rent by borough and neighbourhood, and reflects current market
+conditions.
+
+**Planned analyses/Visualizations:**
+
+- Bar chart of complaints by descriptor category
+- Interactive map of the concentration of 311 complaints related to
+  rats/rodents, color-coded by neighborhood rent prices
+- Month/year heatmap showing seasonality of rat complaints
+
+**Coding challenges:**
+
+- StreetEasy reports asking rents rather than signed lease prices, so
+  actual rents may be higher or lower.
+- Neighborhoods with few listings can produce unstable medians.
+- 311 data is not an exhaustive list of all rodent activity as many
+  sightings go unreported or are dealt with by the buildings management
+  and so are not recorded.
+- There is no way to identify specific callers in the data, so we can
+  not distinguish between one person calling about the same thing
+  multiple times or multiple people calling about the same rat problem,
+  so we will need to summarize complaints at the building level rather
+  than using raw counts of complaints.
+- The full 311 dataset is very large, so we will need to download only
+  the rodent complaints in batches, which can be done through the NYC
+  Open Data API. Cleaning the data, standardizing variables, and merging
+  with other data sets of interest (average neighborhood rents) will be
+  challenging.
 
 **Planned timeline:**
+
+- Week 1 (Nov 23-27): We intend to use this week to identify the
+  variables necessary to complete our analysis from the datasets and
+  combine and clean the data. We will code the initial data
+  visualizations to get an idea of what the results may be and how to
+  refine our methods for more useful results. We will then clean up the
+  code and visuals so that they are easy to interpret for viewers. At
+  the end of this week, we will draft the following sections of the
+  report: overview of project goals and motivations, related work,
+  initial questions, data cleaning, and initial exploratory analysis.
+- Week 2 (Nov 30 - Dec 4): We intend to use this week to analyze the
+  data we collected and build the website. At the end of this week, we
+  will draft the following sections of the report: complete data
+  cleaning and exploratory analysis.
+- Week 3 (Dec 7-12):We intend to use this week to complete our report
+  and website, record our webpage and screencast, and complete the peer
+  assessment.
